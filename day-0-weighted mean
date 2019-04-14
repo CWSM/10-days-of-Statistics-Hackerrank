@@ -1,0 +1,6 @@
+a <- c(10, 40, 30, 50, 20)
+b <- c(1, 2, 3, 4, 5)
+ab <- weighted.mean(a,b) 
+cat(format(round(ab, 1), nsmall = 1))
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
