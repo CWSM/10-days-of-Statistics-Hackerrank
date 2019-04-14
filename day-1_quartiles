@@ -1,1 +1,6 @@
 
+df <- c(3, 7, 8, 5, 12, 14, 21, 13, 18)
+lowerquart <- quant
+median <- median(df)
+cat(median, sep="\n")
+cat(median(df), sep="\n")
