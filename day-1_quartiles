@@ -1,6 +1,11 @@
+df <- sort(c(3, 7, 8, 5, 12, 14, 21, 13, 18), decreasing=FALSE)
+lq <-c(3,5,7,8)
+uq <-c(13,14,18,21)
 
-df <- c(3, 7, 8, 5, 12, 14, 21, 13, 18)
-lowerquart <- quant
-median <- median(df)
-cat(median, sep="\n")
+cat(median(lq), sep="\n")
 cat(median(df), sep="\n")
+cat(median(uq), sep="\n")
+
+6
+12
+16
